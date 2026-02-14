@@ -1,8 +1,4 @@
-"""
-Program: Biggest of Three Numbers
-Description: This program finds the biggest among three numbers entered by the user.
-Author: Deepak Singh Rajput
-"""
+#Program: Biggest of Three Numbers
 
 # Taking input from the user
 a = int(input("Enter first number: "))
