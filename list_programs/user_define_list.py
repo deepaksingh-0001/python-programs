@@ -1,6 +1,5 @@
-# Take space-separated numbers from user and convert to list
+# Program to take list input from user
 
-user_input = input("Enter the elements: ")
-l = list(map(int, user_input.split()))
+list = list(map(int, input("Enter the elements: ").split()))
 
-print("List is:", l)
+print("List is:", list)
