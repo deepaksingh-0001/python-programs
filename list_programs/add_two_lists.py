@@ -1,6 +1,8 @@
-# Add two lists using (+) with user input
+#program to concatenate two lists using user input
 
-lst1 =list(map(int, input("enter list 1: ").split()))
-lst2 =list(map(int, input("enter list 2: ").split()))
-final_list = lst1 + lst2
+lst1 = list(map(int, input("Enter list 1 elements: ").split()))
+lst2 = list(map(int, input("Enter list 2 elements: ").split()))
+
+final_list = lst1 + lst2   # concatenate two lists
+
 print("Combined list:", final_list)
